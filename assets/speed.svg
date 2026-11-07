@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 312" width="1200" height="312" role="img" aria-label="Seconds from letting go of the key to text on screen. Talk: 0.007 s if you pause first, 0.09 s if you let go mid-sentence. Wispr Flow: 1.8 s on fast Wi-Fi and 3.2 s on a 100 Mbps connection, from independent tests.">
+<defs><clipPath id="card"><rect width="1200" height="312" rx="24"/></clipPath></defs>
+<g clip-path="url(#card)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<rect width="1200" height="312" fill="#0C0C0E"/>
+<line x1="360.0" y1="36" x2="360.0" y2="256" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<text x="360.0" y="282" text-anchor="middle" font-size="13" fill="#5E5B57">0 s</text>
+<line x1="572.6" y1="36" x2="572.6" y2="256" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="572.6" y="282" text-anchor="middle" font-size="13" fill="#5E5B57">1 s</text>
+<line x1="785.1" y1="36" x2="785.1" y2="256" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="785.1" y="282" text-anchor="middle" font-size="13" fill="#5E5B57">2 s</text>
+<line x1="997.7" y1="36" x2="997.7" y2="256" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="997.7" y="282" text-anchor="middle" font-size="13" fill="#5E5B57">3 s</text>
+<text x="48" y="65.0" font-size="16" font-weight="600" fill="#EAE8E4">Talk</text>
+<text x="48" y="84.0" font-size="13" fill="#94918B">if you pause before letting go</text>
+<path d="M360 56.0h2.0a2.0 2.0 0 0 1 2.0 2.0v18.0a2.0 2.0 0 0 1 -2.0 2.0h-2.0z" fill="#D9A566"/>
+<text x="376.0" y="72.0" font-size="15" font-weight="600" fill="#EAE8E4">0.007 s</text>
+<text x="48" y="119.0" font-size="16" font-weight="600" fill="#EAE8E4">Talk</text>
+<text x="48" y="138.0" font-size="13" fill="#94918B">if you let go mid-sentence</text>
+<path d="M360 110.0h15.8a4 4 0 0 1 4 4v14a4 4 0 0 1 -4 4h-15.8z" fill="#D9A566"/>
+<text x="391.8" y="126.0" font-size="15" font-weight="600" fill="#EAE8E4">0.09 s</text>
+<text x="48" y="173.0" font-size="16" font-weight="600" fill="#EAE8E4">Wispr Flow</text>
+<text x="48" y="192.0" font-size="13" fill="#94918B">fast Wi-Fi</text>
+<path d="M360 164.0h378.6a4 4 0 0 1 4 4v14a4 4 0 0 1 -4 4h-378.6z" fill="#6B6761"/>
+<text x="754.6" y="180.0" font-size="15" font-weight="600" fill="#EAE8E4">1.8 s</text>
+<text x="48" y="227.0" font-size="16" font-weight="600" fill="#EAE8E4">Wispr Flow</text>
+<text x="48" y="246.0" font-size="13" fill="#94918B">100 Mbps connection</text>
+<path d="M360 218.0h676.2a4 4 0 0 1 4 4v14a4 4 0 0 1 -4 4h-676.2z" fill="#6B6761"/>
+<text x="1052.2" y="234.0" font-size="15" font-weight="600" fill="#EAE8E4">3.2 s</text>
+</g></svg>

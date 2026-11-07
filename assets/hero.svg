@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-label="Talk. Hold fn, speak, and it types for you.">
+  <defs>
+    <radialGradient id="warm" cx="50%" cy="0%" r="70%">
+      <stop offset="0" stop-color="#D9A566" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#D9A566" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coral" cx="50%" cy="92%" r="34%">
+      <stop offset="0" stop-color="#FF6B4A" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#FF6B4A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pillFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A1A17"/>
+      <stop offset="1" stop-color="#161214"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="560" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <rect width="1200" height="560" fill="#0C0C0E"/>
+    <rect width="1200" height="560" fill="url(#warm)"/>
+    <rect width="1200" height="560" fill="url(#coral)"/>
+
+    <!-- wordmark -->
+    <g transform="translate(546 58)">
+      <rect x="0" y="9" width="4" height="12" rx="2" fill="#D9A566"/>
+      <rect x="7.5" y="4" width="4" height="22" rx="2" fill="#D9A566"/>
+      <rect x="15" y="0" width="4" height="30" rx="2" fill="#D9A566"/>
+      <rect x="22.5" y="5" width="4" height="20" rx="2" fill="#D9A566"/>
+      <rect x="30" y="10" width="4" height="10" rx="2" fill="#D9A566"/>
+      <text x="46" y="24" font-size="24" font-weight="600" fill="#EAE8E4" letter-spacing="-0.3">Talk</text>
+    </g>
+
+    <text x="600" y="166" text-anchor="middle" font-size="56" font-weight="600" fill="#EAE8E4" letter-spacing="-1.6">Hold fn. Speak. It types.</text>
+    <text x="600" y="210" text-anchor="middle" font-size="20" fill="#94918B">Private dictation that runs entirely on your Mac.</text>
+
+    <!-- message being dictated -->
+    <g filter="url(#shadow)">
+      <rect x="300" y="256" width="600" height="148" rx="16" fill="#17171A" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    </g>
+    <text x="332" y="294" font-size="13" fill="#5E5B57">To: Sam</text>
+    <line x1="332" y1="310" x2="868" y2="310" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <text x="332" y="346" font-size="18" fill="#EAE8E4">Can we move the design review to Thursday? I'd like</text>
+    <text x="332" y="374" font-size="18" fill="#EAE8E4">one more day to finish the mobile layouts.</text>
+    <rect x="670" y="358" width="2.5" height="21" rx="1.25" fill="#D9A566"/>
+
+    <!-- the pill -->
+    <g transform="translate(515 456)">
+      <rect x="-6" y="0" width="182" height="48" rx="24" fill="#FF6B4A" opacity="0.30" filter="url(#glow)"/>
+      <rect x="0" y="0" width="170" height="48" rx="24" fill="url(#pillFill)" stroke="#FF6B4A" stroke-opacity="0.28"/>
+      <g fill="#FF6B4A">
+        <rect x="24" y="17" width="3.5" height="14" rx="1.75"/>
+        <rect x="31" y="12" width="3.5" height="24" rx="1.75"/>
+        <rect x="38" y="9" width="3.5" height="30" rx="1.75"/>
+        <rect x="45" y="14" width="3.5" height="20" rx="1.75"/>
+        <rect x="52" y="10" width="3.5" height="28" rx="1.75"/>
+        <rect x="59" y="16" width="3.5" height="16" rx="1.75"/>
+        <rect x="66" y="19" width="3.5" height="10" rx="1.75"/>
+      </g>
+      <text x="86" y="30.5" font-family="'SF Pro Rounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#EAE8E4">0:07</text>
+      <circle cx="140" cy="24" r="4" fill="#FF6B4A"/>
+    </g>
+  </g>
+</svg>
